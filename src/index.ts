@@ -17,4 +17,5 @@ app.use(helloRouter)
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(openapiSpecification))
 app.listen(5000, () => {
   console.log('Server listening in http://localhost:5000')
+  console.log('- API Docs in http://localhost:5000/api-docs')
 })
