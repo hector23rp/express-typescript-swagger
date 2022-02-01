@@ -1,8 +1,8 @@
 import express from 'express'
 import definition from './server-spec.json'
-import * as path from 'path';
-const swaggerJsdoc = require('swagger-jsdoc')
-const swaggerUi = require('swagger-ui-express');
+import * as path from 'path'
+import swaggerJsdoc from 'swagger-jsdoc'
+import * as swaggerUi from 'swagger-ui-express'
 import helloRouter from './routes/hello.route'
 
 const options = {
